@@ -1,0 +1,11 @@
+# Ignorar dependências (em qualquer pasta)
+node_modules/
+*/node_modules/
+
+# Ignorar arquivos de sistema e banco de dados
+.DS_Store
+*.db
+*.sqlite
+*.log
+dist/
+.env
